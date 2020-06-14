@@ -10,3 +10,9 @@ ul:not(.browser-default)>li {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+nav .brand-logo.center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
