@@ -1,4 +1,12 @@
 body {
-    background: rgb(200,21,21);
-    background: linear-gradient(90deg, rgba(200,21,21,1) 0%, rgba(241,255,95,1) 91%);
+    background: linear-gradient(90deg, #B22222 0%,#FBDB48 100% );
+}
+.collection.with-header .collection-item {
+    padding-left: 30px;
+    background-color: lightgrey;
+}
+ul:not(.browser-default)>li {
+    list-style-type: none;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
